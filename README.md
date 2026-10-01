@@ -2,6 +2,10 @@
 
 Site statique de photographe et vidéaste, composé d’une page d’accueil et d’un portfolio filtrable.
 
+**Aperçu en ligne :** https://dadycool014.github.io/akram-sannouri-portfolio/
+
+La version en ligne est une maquette publique hébergée gratuitement avec GitHub Pages. Elle se met à jour automatiquement à chaque envoi sur la branche `main`.
+
 ## Personnalisation avant publication
 
 1. Remplacer les cinq visuels de démonstration dans `assets/media/` par les travaux originaux d’Akram.
