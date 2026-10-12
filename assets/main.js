@@ -89,12 +89,12 @@
     const body = [
       `Nom : ${name}`,
       `Email : ${data.get("email") || "-"}`,
-      `Projet : ${data.get("type") || "-"}`,
+      `Service : ${data.get("type") || "-"}`,
       `Date : ${data.get("date") || "À définir"}`,
       "",
       String(data.get("message") || "").trim(),
     ].join("\n");
-    const subject = `Nouveau projet — ${name || "Demande de contact"}`;
+    const subject = `Demande de devis — ${name || "Demande de contact"}`;
     const email = form.dataset.email || "contact@akramsannouri.com";
     const note = $(".form-note", form);
     if (note) note.textContent = "Votre messagerie va s’ouvrir avec le message préparé.";
