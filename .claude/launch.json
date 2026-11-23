@@ -4,8 +4,18 @@
     {
       "name": "site",
       "runtimeExecutable": "node",
-      "runtimeArgs": [".claude/serve.js"],
+      "runtimeArgs": [
+        ".claude/serve.js"
+      ],
       "port": 5500
+    },
+    {
+      "name": "site-call19",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "site-call19/server.js"
+      ],
+      "port": 3019
     }
   ]
 }

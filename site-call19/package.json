@@ -1,0 +1,18 @@
+{
+  "name": "site-call19",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site Call 19 Production et envoi par email des demandes de devis",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemailer": "^10.6.1"
+  }
+}
